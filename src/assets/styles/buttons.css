@@ -1,0 +1,12 @@
+.btn{
+    @apply flex gap-2 items-center m-2 px-6 h-10 rounded-3xl transition-all duration-200 outline-none
+}
+
+.btn-primary{
+    @apply bg-indigo-700  text-white shadow-slate-900 hover:shadow-md  hover:brightness-105 active:shadow-none active:brightness-110 disabled:bg-[#1d1b203a] disabled:shadow-none disabled:text-[#1d1b2061]
+}
+
+.btn-secondary{
+    @apply bg-indigo-300 text-[#1D192B] shadow-slate-900 hover:shadow-md hover:brightness-90 active:brightness-95 active:shadow-none disabled:bg-[#1d1b203a] disabled:shadow-none disabled:text-[#1d1b2061] 
+
+}
